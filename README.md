@@ -14,3 +14,8 @@ A menu-driven C++ OOP application that gives personalized media recommendations 
 - Genre-wise Top 10 media rankings
 - Menu-driven user interface
 - Clear and explainable recommendation logic
+
+## 🙏 Acknowledgements
+
+I would like to sincerely thank **Kshitij Yogeshkumar** for his valuable contribution to this project.  
+His support, ideas, and assistance during the development and refinement of the system played an important role in the successful completion of this project.
