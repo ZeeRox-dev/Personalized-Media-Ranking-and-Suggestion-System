@@ -9,7 +9,7 @@ class FAQ_Data {
         cout<<"\n 1. Which storytelling approach do you find most engaging? ";
         cout<<"\n A1) tight, self-contained story that resolves within a single experience.";
         cout<<"\n B1) A longer arc with multiple episodes exploring characters and world over time.";
-        cout<<"\n C1) A story that emphasizes unique visual style and world-building, sometimes with episodic snapshots but connected lore.";
+        cout<<"\n C1) A story that emphasizes unique visual style and world-building, sometimes with episodic snapshots but \n connected lore.";
         cout<<"\n Your option (A1/B1/C1): ";
         cin>>ans1;
         cout<<"\n 2. How do you prefer pacing and structure?";
@@ -33,7 +33,7 @@ class FAQ_Data {
         cout<<"\n 5. Which statement best describes your viewing habits and preferences?";
         cout<<"\n A5) I value finishing a complete story in one go, without long breaks.";
         cout<<"\n B5) I enjoy building a watch schedule, bingeing or following seasons over weeks.";
-        cout<<"\n C5) I enjoy diverse media experiences with strong stylistic choices and varied formats, sometimes outside standard TV norms.";
+        cout<<"\n C5) I enjoy diverse media experiences with strong stylistic choices and varied formats, sometimes outside standard \n TV norms.";
         cout<<"\n Your option (A5/B5/C5): ";
         cin>>ans5;
     }
