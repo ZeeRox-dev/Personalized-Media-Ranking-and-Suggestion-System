@@ -25,7 +25,7 @@ class FAQ_Data {
         cout<<"\n Your option (A3/B3/C3): ";
         cin>>ans3;
         cout<<"\n 4. How do you typically consume media in terms of episodes or duration?";
-        cout<<"\n A4) One-and-done experiences that does not require commitment beyond a single sitting.";
+        cout<<"\n A4) One-and-done experiences that don’t require commitment beyond a single sitting.";
         cout<<"\n B4) A structured sequence of episodes or seasons that you follow over time.";
         cout<<"\n C4) Shorter segments or episodes with frequent shifts in tone or setting, often found in serialized formats.";
         cout<<"\n Your option (A4/B4/C4): ";
@@ -77,7 +77,7 @@ class FAQ_Data {
 class MediaRanking {
 public:
     void printList(const string list[], int size) {
-        cout << "\n\n ---------------- TOP 10 ----------------\n";
+        cout << "\n\n ---------------- TOP "<<size<<" ----------------\n";
         for (int i = 0; i < size; i++) {
             cout << i + 1 << ". " << list[i] << endl;
         }
@@ -316,5 +316,4 @@ int main() {
     Menu m1;
     m1.MainMenu();
     return 0;
-
 }
